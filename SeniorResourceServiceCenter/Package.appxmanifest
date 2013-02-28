@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  
+  <Identity Name="40ec42b5-f6ef-4cd1-af2b-21b1b4c772c5"
+            Publisher="CN=ponnek"
+            Version="1.0.0.0" />
+
+  <Properties>
+    <DisplayName>SeniorResourceServiceCenter</DisplayName>
+    <PublisherDisplayName>ponnek</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>SeniorResourceServiceCenter</Description>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App" 
+        Executable="$targetnametoken$.exe" 
+        EntryPoint="SeniorResourceServiceCenter.App">
+        <VisualElements 
+            DisplayName="SeniorResourceServiceCenter"
+            Logo="Assets\Logo.png"
+            SmallLogo="Assets\SmallLogo.png"
+            Description="SeniorResourceServiceCenter"
+            ForegroundText="light"
+            BackgroundColor="#464646">
+            <DefaultTile ShowName="allLogos" />
+            <SplashScreen Image="Assets\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
