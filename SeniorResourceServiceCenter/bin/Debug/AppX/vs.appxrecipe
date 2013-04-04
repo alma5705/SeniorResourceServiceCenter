@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IVY</Machine>
+    <WindowsUser>ponnek</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>ECE19266558A8636F7F16E99A56633AF03A1187065157369242CB1E43AB9C6EA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>38bfa9f1-5b5c-47fa-b575-c68710042e35_1.0.0.0_neutral__8785rajwqkham</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>38bfa9f1-5b5c-47fa-b575-c68710042e35_8785rajwqkham!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>38bfa9f1-5b5c-47fa-b575-c68710042e35</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Laurent</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-04T01:12:27.447</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe">
+      <PackagePath>SeniorResourceServiceCenter.exe</PackagePath>
+      <Modified>2013-04-04T01:12:20.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.pdb">
+      <PackagePath>SeniorResourceServiceCenter.pdb</PackagePath>
+      <Modified>2013-04-04T01:12:20.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+      <Modified>2012-10-28T17:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+      <Modified>2012-10-28T17:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2012-10-25T08:44:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Extras.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.xml</PackagePath>
+      <Modified>2012-10-28T17:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Win8.xml</PackagePath>
+      <Modified>2012-10-28T17:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\Microsoft.Practices.ServiceLocation.xml">
+      <PackagePath>Microsoft.Practices.ServiceLocation.xml</PackagePath>
+      <Modified>2011-10-08T10:05:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-24T17:19:35.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-24T17:19:35.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-24T17:19:35.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-24T17:19:35.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-03-24T17:19:35.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-03-24T17:19:35.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-03-24T17:19:35.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Skins\MainSkin.xaml">
+      <PackagePath>Skins\MainSkin.xaml</PackagePath>
+      <Modified>2013-03-24T17:19:35.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-04-04T01:12:26.966</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -115,6 +115,15 @@
     <Compile Include="Model\DataItem.cs" />
     <Compile Include="Model\DataService.cs" />
     <Compile Include="Model\IDataService.cs" />
+    <Compile Include="Model\SRSChangeManagement.cs" />
+    <Compile Include="Model\SRSClients.cs" />
+    <Compile Include="Model\SRSContacts.cs" />
+    <Compile Include="Model\SRSCredentialsInternalUsers.cs" />
+    <Compile Include="Model\SRSEmployeeInfo.cs" />
+    <Compile Include="Model\SRSExternalUsers.cs" />
+    <Compile Include="Model\SRSLiveCalendar.cs" />
+    <Compile Include="Model\SRSPayroll.cs" />
+    <Compile Include="Model\SRSWebCredentials.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />

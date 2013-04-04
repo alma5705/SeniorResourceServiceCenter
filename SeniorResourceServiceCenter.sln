@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeniorResourceServiceCenter", "SeniorResourceServiceCenter\SeniorResourceServiceCenter.csproj", "{75CCCE90-11AA-405D-A128-FEA952708D15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{53B19CAA-D283-45D0-9292-8DA671AAC405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,16 @@ Global
 		{75CCCE90-11AA-405D-A128-FEA952708D15}.Release|x86.ActiveCfg = Release|x86
 		{75CCCE90-11AA-405D-A128-FEA952708D15}.Release|x86.Build.0 = Release|x86
 		{75CCCE90-11AA-405D-A128-FEA952708D15}.Release|x86.Deploy.0 = Release|x86
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Release|ARM.ActiveCfg = Release|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Release|x64.ActiveCfg = Release|Any CPU
+		{53B19CAA-D283-45D0-9292-8DA671AAC405}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
