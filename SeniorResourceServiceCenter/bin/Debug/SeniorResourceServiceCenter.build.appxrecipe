@@ -56,6 +56,12 @@
     <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\AddSenior.xaml">
+      <PackagePath>AddSenior.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\AppointmentAssign.xaml">
+      <PackagePath>AppointmentAssign.xaml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>

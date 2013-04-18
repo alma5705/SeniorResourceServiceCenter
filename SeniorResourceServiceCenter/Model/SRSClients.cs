@@ -8,33 +8,33 @@ namespace SeniorResourceServiceCenter.Model
 {
     public class SRSClients
     {
-        private int Id;
-        private string FirstName;
-        private string LastName;
-        private long SSN;
-        private DateTime EnrollmentDate;
-        private string EnrollmentAuthByUserId;
-        private string ClientSpecialNeed1;
-        private string ClientSpecialNeed2;
-        private string ClientSpecialNeed3;
-        private long PhonePrimary;
-        private long PhoneSecondary;
-        private string AddressHouseorAptNumber;
-        private string AddressStreet;
-        private string AddressCity;
-        private string AddressState;
-        private int AddressZip;
-        private string ClientEmail;
-        private string ClientNextOfKinPhoneNumber;
-        private string ClientNextOfKinFirstName;
-        private string ClientNextOfKinLastName;
-        private string ClientNextOfKin2PhoneNumber;
-        private string ClientNextOfKin2FirstName;
-        private string ClientNextOfKin2LastName;
-        private string ClientDOB;
-        private string ClientCoordinatorId;
-        private SRSEmployeeInfo EmployeeInfo;
-        private SRSLiveCalendar LiveCalendar; //collection
+        public int ID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public long SSN { get; set; }
+        public DateTime EnrollmentDate { get; set; }
+        public string EnrollmentAuthByUserId { get; set; }
+        public string ClientSpecialNeed1 { get; set; }
+        public string ClientSpecialNeed2 { get; set; }
+        public string ClientSpecialNeed3 { get; set; }
+        public long PhonePrimary { get; set; }
+        public long PhoneSecondary { get; set; }
+        public string AddressHouseorAptNumber { get; set; }
+        public string AddressStreet { get; set; }
+        public string AddressCity { get; set; }
+        public string AddressState { get; set; }
+        public int AddressZip { get; set; }
+        public string ClientEmail { get; set; }
+        public string ClientNextOfKinPhoneNumber { get; set; }
+        public string ClientNextOfKinFirstName { get; set; }
+        public string ClientNextOfKinLastName { get; set; }
+        public string ClientNextOfKin2PhoneNumber { get; set; }
+        public string ClientNextOfKin2FirstName { get; set; }
+        public string ClientNextOfKin2LastName { get; set; }
+        public string ClientDOB { get; set; }
+        public string ClientCoordinatorId { get; set; }
+        public SRSEmployeeInfo EmployeeInfo { get; set; } //collection
+        public SRSLiveCalendar LiveCalendar { get; set; } //collection
 
     }
 }

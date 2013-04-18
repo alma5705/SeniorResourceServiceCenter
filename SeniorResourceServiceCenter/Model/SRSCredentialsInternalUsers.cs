@@ -8,21 +8,21 @@ namespace SeniorResourceServiceCenter.Model
 {
     public class SRSCredentialsInternalUsers
     {
-        private int Id;
-        private string EmployeeId;
-        private string EmployeeFirstName;
-        private string EmployeeLoginId;
-        private string EmployeeLoginPw;
-        private bool EmployeeIsAdmin;
-        private bool EmployeeArmPrivilageExternalContacts;
-        private bool EmployeeArmPrivilageInternalContacts;
-        private bool EmployeeArmPrivilageSRSTasks;
-        private bool EmployeeArmPrivilageInherited; //bug, a string in the db model
-        private DateTime EmployeeLastLogin;
-        private DateTime EmployeeLastLogout;
-        private string EmployeeLiveUserId;
-        private string EmployeeLiveUserPw;
-        private SRSEmployeeInfo SRSEmpInfo;
-        private SRSWebCredentials SRSWebCredents;
+        public int ID { get; set; }
+        public string EmployeeID { get; set; }
+        public string EmployeeFirstName { get; set; }
+        public string EmployeeLoginID { get; set; }
+        public string EmployeeLoginPw { get; set; }
+        public bool EmployeeIsAdmin { get; set; }
+        public bool EmployeeArmPrivilageExternalContacts { get; set; }
+        public bool EmployeeArmPrivilageInternalContacts { get; set; }
+        public bool EmployeeArmPrivilageSRSTasks { get; set; }
+        public bool EmployeeArmPrivilageInherited { get; set; } //bug, a string in the db model
+        public DateTime EmployeeLastLogin { get; set; }
+        public DateTime EmployeeLastLogout { get; set; }
+        public string EmployeeLiveUserID { get; set; }
+        public string EmployeeLiveUserPw { get; set; }
+        public SRSEmployeeInfo SRSEmpInfo { get; set; } //collection
+        public SRSWebCredentials SRSWebCredents { get; set; } //collection
     }
 }

@@ -8,17 +8,17 @@ namespace SeniorResourceServiceCenter.Model
 {
     public class SRSWebCredentials
     {
-        public int Id;
-        private string WebMasterLiveActId;
-        private string WebMasterLiveActPw;
-        private string WebSecurityTypeUsed;
-        private string WebHostIpAddress;
-        private string WebHostLoginId;
-        private string WebHostLoginPw;
-        private long WebSRSWebsiteIPAddress;
-        private DateTime WebSRSWebsiteLastConnectionDatetime;
-        private DateTime WebSRSWebsiteLastDisconnectDatetime;
-        private SRSChangeManagement WebSRSWebsiteChangeLogManual; //Collection
-        private SRSCredentialsInternalUsers SRSStaffCredentialsCollection; //Collection
+        public int ID { get; set; }
+        public  string WebMasterLiveActId { get; set; }
+        public  string WebMasterLiveActPw { get; set; }
+        public  string WebSecurityTypeUsed { get; set; }
+        public  string WebHostIpAddress { get; set; }
+        public  string WebHostLoginId { get; set; }
+        public  string WebHostLoginPw { get; set; }
+        public  long WebSRSWebsiteIPAddress { get; set; }
+        public  DateTime WebSRSWebsiteLastConnectionDatetime { get; set; }
+        public  DateTime WebSRSWebsiteLastDisconnectDatetime { get; set; }
+        public  SRSChangeManagement WebSRSWebsiteChangeLogManual { get; set; } //Collection
+        public  SRSCredentialsInternalUsers SRSStaffCredentialsCollection { get; set; } //Collection
     }
 }

@@ -1,7 +1,5 @@
 C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe
 C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.pdb
-C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe.CodeAnalysisLog.xml
-C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe.lastcodeanalysissucceeded
 C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\resources.pri
 C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\AppxManifest.xml
 C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.build.appxrecipe
@@ -38,3 +36,9 @@ C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCente
 C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\pri.resfiles
 C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\LanguageQualifiers.txt
 C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\ProjectArchitectures.txt
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\AddSenior.g.i.cs
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\AddSenior.g.cs
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\AppointmentAssign.g.i.cs
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\AppointmentAssign.g.cs
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\AppointmentAssign.xaml
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\AddSenior.xaml

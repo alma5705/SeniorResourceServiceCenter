@@ -8,27 +8,27 @@ namespace SeniorResourceServiceCenter.Model
 {
     public class SRSEmployeeInfo
     {
-        private int Id;
-        private long EmpSSN;
-        private string FirstName;
-        private string LastName;
-        private string Gender;
-        private long SRSDeskPhoneExtension;
-        private long CellPhoneNumber;
-        private long SecondaryPhoneNumber;
-        private DateTime HireDate;
-        private string ManagerId;
-        private string ManagerFirstName;
-        private string ManagerLastName;
-        private long AddressHouseOrAptNumber;
-        private string AddressStreet;
-        private string AddressCity;
-        private string AddressState;
-        private int AddressZip;
-        private DateTime DateOfBirth;
-        private SRSClients CurrentlyManagedSeniors; //collection
-        private SRSPayroll Payroll;
-        private SRSCredentialsInternalUsers SRSCredentialsInternal;
+        public int ID { get; set; }
+        public long EmpSSN { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Gender { get; set; }
+        public long SRSDeskPhoneExtension { get; set; }
+        public long CellPhoneNumber { get; set; }
+        public long SecondaryPhoneNumber { get; set; }
+        public DateTime HireDate { get; set; }
+        public string ManagerID { get; set; }
+        public string ManagerFirstName { get; set; }
+        public string ManagerLastName { get; set; }
+        public long AddressHouseOrAptNumber { get; set; }
+        public string AddressStreet { get; set; }
+        public string AddressCity { get; set; }
+        public string AddressState { get; set; }
+        public int AddressZip { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public SRSClients CurrentlyManagedSeniors { get; set; } //collection
+        public SRSPayroll Payroll { get; set; }
+        public SRSCredentialsInternalUsers SRSCredentialsInternal { get; set; }
 
     }
 }

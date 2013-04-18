@@ -2,7 +2,9 @@ Assets\Logo.png
 Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
+AddSenior.xaml
 App.xaml
+AppointmentAssign.xaml
 Common\StandardStyles.xaml
 MainPage.xaml
 Skins\MainSkin.xaml

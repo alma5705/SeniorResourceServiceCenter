@@ -8,16 +8,16 @@ namespace SeniorResourceServiceCenter.Model
 {
     public class SRSPayroll
     {
-        private int Id;
-        private string payEmpId;
-        private bool IsSalary;
-        private bool IsHourly;
-        private long SalaryYearly;
-        private long HourlyRate;
-        private bool IsVolunteer; //or intern
-        private long NumOfTaxDeductions;
-        private long NetPayYearly;
-        private int HoursScheduledWorkWeekly;
-        private SRSEmployeeInfo EmployeeInfo;
+        public  int ID { get; set; }
+        public  string payEmpID { get; set; }
+        public  bool IsSalary { get; set; }
+        public  bool IsHourly { get; set; }
+        public  long SalaryYearly { get; set; }
+        public  long HourlyRate { get; set; }
+        public  bool IsVolunteer { get; set; } //or intern
+        public  long NumOfTaxDeductions { get; set; }
+        public  long NetPayYearly { get; set; }
+        public  int HoursScheduledWorkWeekly { get; set; }
+        public  SRSEmployeeInfo EmployeeInfo { get; set; }
     }
 }
