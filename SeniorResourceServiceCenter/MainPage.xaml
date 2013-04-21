@@ -35,11 +35,6 @@
                        Text="Senior Resource Service Center"
                        Style="{StaticResource PageHeaderTextStyle}" Margin="94,0,30,40" />
         </Grid>
-        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Margin="590,343,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
-        <TextBlock x:Name="txtblkUserName" HorizontalAlignment="Left" Margin="382,346,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" FontSize="24"/>
-        <Button x:Name="btnLogIn" Content="Log In" HorizontalAlignment="Left" Margin="590,518,0,0" Grid.Row="1" VerticalAlignment="Top" Height="56" Width="168" FontSize="24"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="590,432,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
-        <TextBlock x:Name="txtblkPassword" HorizontalAlignment="Left" Margin="382,435,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" FontSize="24"/>
 
         <VisualStateManager.VisualStateGroups>
             <!-- Visual states reflect the application's view state -->
