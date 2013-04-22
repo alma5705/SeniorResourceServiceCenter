@@ -1,4 +1,7 @@
 ﻿using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
+using Microsoft.WindowsAzure.MobileServices;
+using System.Collections.ObjectModel;
 using SeniorResourceServiceCenter.Model;
 
 namespace SeniorResourceServiceCenter.ViewModel
@@ -11,14 +14,15 @@ namespace SeniorResourceServiceCenter.ViewModel
     /// </summary>
     public class MainViewModel : ViewModelBase
     {
-        private readonly IDataService _dataService;
+        private ObservableCollection<Senior> items;
+        private IMobileServiceTable<Senior> seniorsTable = App.MobileService.GetTable<Senior>();
 
         /// <summary>
         /// The <see cref="WelcomeTitle" /> property's name.
         /// </summary>
         public const string WelcomeTitlePropertyName = "WelcomeTitle";
 
-        private string _welcomeTitle = string.Empty;
+        private string _welcomeTitle = "Empty";
 
         /// <summary>
         /// Gets the WelcomeTitle property.
@@ -43,13 +47,22 @@ namespace SeniorResourceServiceCenter.ViewModel
             }
         }
 
+
+        public RelayCommand RefreshCommand
+        {
+            get
+            {
+                return new RelayCommand(Refresh);
+            }
+        }
+
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
-        public MainViewModel(IDataService dataService)
+        public MainViewModel()
         {
-            _dataService = dataService;
-            _dataService.GetData(
+            /*SeniorService = dataService;
+            SeniorService.GetSeniors(
                 (item, error) =>
                 {
                     if (error != null)
@@ -60,6 +73,8 @@ namespace SeniorResourceServiceCenter.ViewModel
 
                     WelcomeTitle = item.Title;
                 });
+             */
+
         }
 
         ////public override void Cleanup()
@@ -68,5 +83,14 @@ namespace SeniorResourceServiceCenter.ViewModel
 
         ////    base.Cleanup();
         ////}
+
+        private async void Refresh()
+        {
+            var results = await seniorsTable.ToListAsync();
+
+            items = new ObservableCollection<Senior>(results);
+            WelcomeTitle = items[0].FirstName;
+        }
     }
+
 }

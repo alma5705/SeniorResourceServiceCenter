@@ -1,5 +1,0 @@
-C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\UnitTests\bin\Debug\UnitTests.dll
-C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\UnitTests\bin\Debug\UnitTests.pdb
-C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
-C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\UnitTests\obj\Debug\UnitTests.dll
-C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\UnitTests\obj\Debug\UnitTests.pdb

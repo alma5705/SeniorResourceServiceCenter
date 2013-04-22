@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="38bfa9f1-5b5c-47fa-b575-c68710042e35" Publisher="CN=Laurent" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Identity Name="19a94fe2-5766-4f56-b9d5-eb985aff3fd1" Publisher="CN=Laurent" Version="1.0.0.0" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>SeniorResourceServiceCenter</DisplayName>
     <PublisherDisplayName>ponnek</PublisherDisplayName>
