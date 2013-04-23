@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe">
       <PackagePath>SeniorResourceServiceCenter.exe</PackagePath>
-      <Modified>2013-04-23T05:34:54.964</Modified>
+      <Modified>2013-04-23T05:52:28.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.pdb">
       <PackagePath>SeniorResourceServiceCenter.pdb</PackagePath>
-      <Modified>2013-04-23T05:34:54.946</Modified>
+      <Modified>2013-04-23T05:52:28.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Extras.Win8.dll">
       <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
