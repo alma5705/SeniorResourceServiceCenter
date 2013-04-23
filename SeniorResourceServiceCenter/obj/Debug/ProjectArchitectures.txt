@@ -1,1 +1,1 @@
-C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\SeniorResourceServiceCenter.csproj;neutral
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\SeniorResourceServiceCenter.csproj;neutral

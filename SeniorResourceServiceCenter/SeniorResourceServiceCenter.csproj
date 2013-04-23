@@ -114,6 +114,7 @@
     </Compile>
     <Compile Include="Design\DesignDataService.cs" />
     <Compile Include="Model\Seniors.cs" />
+    <Compile Include="Model\SpecialRequirement.cs" />
     <Compile Include="Navigation\INavigationService.cs" />
     <Compile Include="Navigation\NavigationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

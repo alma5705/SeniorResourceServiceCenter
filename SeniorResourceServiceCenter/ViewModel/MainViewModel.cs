@@ -15,6 +15,7 @@ namespace SeniorResourceServiceCenter.ViewModel
     public class MainViewModel : ViewModelBase
     {
         private ObservableCollection<Senior> items;
+        private ObservableCollection<Senior> Volunteers;
         private IMobileServiceTable<Senior> seniorsTable = App.MobileService.GetTable<Senior>();
 
         /// <summary>
@@ -74,7 +75,7 @@ namespace SeniorResourceServiceCenter.ViewModel
                     WelcomeTitle = item.Title;
                 });
              */
-
+            Refresh();
         }
 
         ////public override void Cleanup()
@@ -89,7 +90,18 @@ namespace SeniorResourceServiceCenter.ViewModel
             var results = await seniorsTable.ToListAsync();
 
             items = new ObservableCollection<Senior>(results);
-            WelcomeTitle = items[0].FirstName;
+            WelcomeTitle = items[0].ToString();
+
+            FindMatches(items[0]);
+        }
+
+        private async void FindMatches(Senior selectedSenior)
+        {
+            var results = await seniorsTable.Where(Senior => Senior.IsSenior == false).
+                Where(Senior => Senior.Requirement == selectedSenior.Requirement).ToListAsync();
+
+            Volunteers = new ObservableCollection<Senior>(results);
+            //int finished;
         }
     }
 

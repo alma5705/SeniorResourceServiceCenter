@@ -122,6 +122,8 @@ namespace SeniorResourceServiceCenter.SeniorResourceServiceCenter_XamlTypeInfo
 
         private object Activate_5_MainPage() { return new global::SeniorResourceServiceCenter.MainPage(); }
 
+        private object Activate_6_SeniorView() { return new global::SeniorResourceServiceCenter.SeniorView(); }
+
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
         {
@@ -175,6 +177,12 @@ namespace SeniorResourceServiceCenter.SeniorResourceServiceCenter_XamlTypeInfo
             case "SeniorResourceServiceCenter.MainPage":
                 userType = new global::SeniorResourceServiceCenter.SeniorResourceServiceCenter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::SeniorResourceServiceCenter.MainPage), GetXamlTypeByName("SeniorResourceServiceCenter.Common.LayoutAwarePage"));
                 userType.Activator = Activate_5_MainPage;
+                xamlType = userType;
+                break;
+
+            case "SeniorResourceServiceCenter.SeniorView":
+                userType = new global::SeniorResourceServiceCenter.SeniorResourceServiceCenter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::SeniorResourceServiceCenter.SeniorView), GetXamlTypeByName("SeniorResourceServiceCenter.Common.LayoutAwarePage"));
+                userType.Activator = Activate_6_SeniorView;
                 xamlType = userType;
                 break;
 
