@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IVY</Machine>
+    <WindowsUser>ponnek</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>235DBE420F82DCC73E0EAE121BA23EFF87329BAD7768E9D236CFD244CD92565F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>19a94fe2-5766-4f56-b9d5-eb985aff3fd1_1.0.0.0_neutral__8785rajwqkham</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>19a94fe2-5766-4f56-b9d5-eb985aff3fd1_8785rajwqkham!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>19a94fe2-5766-4f56-b9d5-eb985aff3fd1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Laurent</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-25T04:00:27.888</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe">
+      <PackagePath>SeniorResourceServiceCenter.exe</PackagePath>
+      <Modified>2013-04-25T04:56:54.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.pdb">
+      <PackagePath>SeniorResourceServiceCenter.pdb</PackagePath>
+      <Modified>2013-04-25T04:56:54.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+      <Modified>2012-10-28T17:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+      <Modified>2012-10-28T17:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2012-10-25T08:44:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\packages\WindowsAzure.MobileServices.0.2.0\lib\win8\Microsoft.WindowsAzure.MobileServices.Managed.dll">
+      <PackagePath>Microsoft.WindowsAzure.MobileServices.Managed.dll</PackagePath>
+      <Modified>2013-04-21T22:39:24.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Extras.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.xml</PackagePath>
+      <Modified>2012-10-28T17:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Win8.xml</PackagePath>
+      <Modified>2012-10-28T17:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\Microsoft.Practices.ServiceLocation.xml">
+      <PackagePath>Microsoft.Practices.ServiceLocation.xml</PackagePath>
+      <Modified>2011-10-08T10:05:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-21T20:20:47.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-21T20:20:47.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-21T20:20:47.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-21T20:20:47.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-04-21T20:20:47.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-04-21T20:20:47.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-04-25T04:56:50.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorView.xaml">
+      <PackagePath>SeniorView.xaml</PackagePath>
+      <Modified>2013-04-22T01:44:40.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Skins\MainSkin.xaml">
+      <PackagePath>Skins\MainSkin.xaml</PackagePath>
+      <Modified>2013-04-21T20:20:47.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-04-22T20:01:27.922</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

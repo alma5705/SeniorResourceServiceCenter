@@ -30,15 +30,9 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Button x:Name="backButton"
-                    Click="GoBack"
-                    IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}"
-                    Style="{StaticResource BackButtonStyle}" />
-            
             <TextBlock x:Name="pageTitle"
                        Grid.Column="1"
-                       Text="my mvvm app"
-                       Style="{StaticResource PageHeaderTextStyle}" />
+                       Style="{StaticResource PageHeaderTextStyle}" Text="Senior Resource Service Center" Margin="127,0,30,40" />
         </Grid>
 
         <TextBlock x:Name="WelcomeTextBlock"
@@ -48,9 +42,15 @@
                    VerticalAlignment="Top"
                    HorizontalAlignment="Left"
                    FontFamily="Segoe UI Light"
-                   Margin="120,49,0,0"
+                   Margin="708,58,0,0"
                    TextAlignment="Center"
                    FontWeight="Light" />
+        <Button x:Name="btnRefresh" Content="Refresh" Command="{Binding RefreshCommand}" HorizontalAlignment="Left" Margin="1075,490,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstSeniors" ItemsSource="{Binding items}"  HorizontalAlignment="Left" Height="334" Margin="103,58,0,0" Grid.Row="1" VerticalAlignment="Top" Width="221">
+        </ListBox>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="738,204,0,0" Grid.Row="1" TextWrapping="Wrap" Text="FirstName" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="856,204,0,0" Grid.Row="1" TextWrapping="Wrap" Text="LastName" VerticalAlignment="Top"/>
+        <Button Content="AddSenior" HorizontalAlignment="Left" Margin="970,204,0,0" Grid.Row="1" VerticalAlignment="Top" />
 
         <VisualStateManager.VisualStateGroups>
             <!-- Visual states reflect the application's view state -->
@@ -61,11 +61,6 @@
                 <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
                 <VisualState x:Name="FullScreenPortrait">
                     <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton"
-                                                       Storyboard.TargetProperty="Style">
-                            <DiscreteObjectKeyFrame KeyTime="0"
-                                                    Value="{StaticResource PortraitBackButtonStyle}" />
-                        </ObjectAnimationUsingKeyFrames>
                         <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)"
                                                        Storyboard.TargetName="WelcomeTextBlock">
                             <DiscreteObjectKeyFrame KeyTime="0">
@@ -88,11 +83,6 @@
                 <!-- The back button and title have different styles when snapped -->
                 <VisualState x:Name="Snapped">
                     <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton"
-                                                       Storyboard.TargetProperty="Style">
-                            <DiscreteObjectKeyFrame KeyTime="0"
-                                                    Value="{StaticResource SnappedBackButtonStyle}" />
-                        </ObjectAnimationUsingKeyFrames>
                         <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle"
                                                        Storyboard.TargetProperty="Style">
                             <DiscreteObjectKeyFrame KeyTime="0"
