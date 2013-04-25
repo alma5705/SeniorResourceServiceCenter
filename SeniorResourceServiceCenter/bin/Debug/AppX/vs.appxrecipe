@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-23T02:41:07.267</Modified>
+      <Modified>2013-04-25T04:00:27.888</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe">
       <PackagePath>SeniorResourceServiceCenter.exe</PackagePath>
-      <Modified>2013-04-23T05:52:28.959</Modified>
+      <Modified>2013-04-25T04:56:54.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.pdb">
       <PackagePath>SeniorResourceServiceCenter.pdb</PackagePath>
-      <Modified>2013-04-23T05:52:28.942</Modified>
+      <Modified>2013-04-25T04:56:54.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Laurent Bugnion %28GalaSoft%29\Mvvm Light Toolkit\Binaries\Win8\GalaSoft.MvvmLight.Extras.Win8.dll">
       <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2013-04-23T02:57:57.681</Modified>
+      <Modified>2013-04-25T04:56:50.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorView.xaml">
       <PackagePath>SeniorView.xaml</PackagePath>

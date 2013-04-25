@@ -48,6 +48,9 @@
         <Button x:Name="btnRefresh" Content="Refresh" Command="{Binding RefreshCommand}" HorizontalAlignment="Left" Margin="1075,490,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <ListBox x:Name="lstSeniors" ItemsSource="{Binding items}"  HorizontalAlignment="Left" Height="334" Margin="103,58,0,0" Grid.Row="1" VerticalAlignment="Top" Width="221">
         </ListBox>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="738,204,0,0" Grid.Row="1" TextWrapping="Wrap" Text="FirstName" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="856,204,0,0" Grid.Row="1" TextWrapping="Wrap" Text="LastName" VerticalAlignment="Top"/>
+        <Button Content="AddSenior" HorizontalAlignment="Left" Margin="970,204,0,0" Grid.Row="1" VerticalAlignment="Top" />
 
         <VisualStateManager.VisualStateGroups>
             <!-- Visual states reflect the application's view state -->

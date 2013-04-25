@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SeniorResourceServiceCenter.Model
 {
-    public class SpecialRequirement
+    public class VolunteerRequirements
     {
         public int ID { get; set; }
-        public string Type { get; set; }
-        public string Name { get; set; }
+        public int VolunteerID { get; set; }
+        public int RequirementID { get; set; }
     }
 }

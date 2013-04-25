@@ -113,8 +113,11 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Design\DesignDataService.cs" />
-    <Compile Include="Model\Seniors.cs" />
-    <Compile Include="Model\SpecialRequirement.cs" />
+    <Compile Include="Model\Requirement.cs" />
+    <Compile Include="Model\Senior.cs" />
+    <Compile Include="Model\SeniorRequirements.cs" />
+    <Compile Include="Model\Volunteer.cs" />
+    <Compile Include="Model\VolunteerRequirements.cs" />
     <Compile Include="Navigation\INavigationService.cs" />
     <Compile Include="Navigation\NavigationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

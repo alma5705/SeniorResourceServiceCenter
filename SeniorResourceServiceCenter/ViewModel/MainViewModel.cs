@@ -15,8 +15,13 @@ namespace SeniorResourceServiceCenter.ViewModel
     public class MainViewModel : ViewModelBase
     {
         private ObservableCollection<Senior> Seniors;
-        private ObservableCollection<Senior> Volunteers;
+        private ObservableCollection<Volunteer> Volunteers;
+        private ObservableCollection<Requirement> Requirements;
         private IMobileServiceTable<Senior> seniorsTable = App.MobileService.GetTable<Senior>();
+        private IMobileServiceTable<Volunteer> volunteerTable = App.MobileService.GetTable<Volunteer>();
+        private IMobileServiceTable<Requirement> requirementTable = App.MobileService.GetTable<Requirement>();
+        private IMobileServiceTable<SeniorRequirements> _seniorRequirements = App.MobileService.GetTable<SeniorRequirements>(); //for many to many relationship
+        private IMobileServiceTable<VolunteerRequirements> _volunteerRequirements = App.MobileService.GetTable<VolunteerRequirements>(); //likewise
 
         /// <summary>
         /// The <see cref="WelcomeTitle" /> property's name.
@@ -48,7 +53,7 @@ namespace SeniorResourceServiceCenter.ViewModel
             }
         }
 
-
+        
         public RelayCommand RefreshCommand
         {
             get
@@ -56,6 +61,7 @@ namespace SeniorResourceServiceCenter.ViewModel
                 return new RelayCommand(Refresh);
             }
         }
+        
 
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
@@ -85,16 +91,23 @@ namespace SeniorResourceServiceCenter.ViewModel
         ////    base.Cleanup();
         ////}
 
+        
         private async void Refresh()
         {
-            var results = await seniorsTable.Where(Senior => Senior.IsSenior == true).ToListAsync();
+            var seniorResults = await seniorsTable.ToListAsync();
+            var volunteerResults = await volunteerTable.ToListAsync();
+            var requirementResults = await requirementTable.ToListAsync();
 
-            Seniors = new ObservableCollection<Senior>(results);
-            WelcomeTitle = Seniors[0].ToString();
+            Seniors = new ObservableCollection<Senior>(seniorResults);
+            Volunteers = new ObservableCollection<Volunteer>(volunteerResults);
+            Requirements = new ObservableCollection<Requirement>(requirementResults);
+            
+            WelcomeTitle = string.Format("{0} {1}", Seniors[1].FirstName, Seniors[1].LastName);
 
-            FindMatches(Seniors[0]);
+            //FindMatches(Seniors[0]);
         }
 
+        /*
         private async void FindMatches(Senior selectedSenior)
         {
             var results = await seniorsTable.Where(Senior => Senior.IsSenior == false).
@@ -102,6 +115,54 @@ namespace SeniorResourceServiceCenter.ViewModel
 
             Volunteers = new ObservableCollection<Senior>(results);
             //int finished;
+        }
+         */
+
+        private async void AddSenior(Senior newSenior)
+        {
+            await seniorsTable.InsertAsync(newSenior);
+            //items.add(newSenior); for adding to the observablecollection, so we don't have to pull from azure
+        }
+
+        private async void AddVolunteer(Volunteer newVolunteer)
+        {
+            await volunteerTable.InsertAsync(newVolunteer);
+        }
+
+        private async void AddRequirement(Requirement newRequirement)
+        {
+            await requirementTable.InsertAsync(newRequirement);
+        }
+
+        private async void AttachRequirement(Requirement theRequirement, Senior theSenior = null, Volunteer theVolunteer = null, string additionalInformation = null)
+        {
+            //first we check to see who is getting the requirement
+            bool isSenior;
+
+            if (theSenior == null)
+                isSenior = true;
+            else if (theVolunteer == null)
+                isSenior = false;
+            else
+                return;
+
+            if (isSenior)
+            {
+                SeniorRequirements req = new SeniorRequirements();
+                req.RequirementID = theRequirement.ID;
+                req.SeniorID = theSenior.ID;
+                req.AdditionalInformation = additionalInformation;
+
+                await _seniorRequirements.InsertAsync(req);
+            }
+            else
+            {
+                VolunteerRequirements req = new VolunteerRequirements();
+                req.RequirementID = theRequirement.ID;
+                req.VolunteerID = theVolunteer.ID;
+
+                await _volunteerRequirements.InsertAsync(req);
+            }
         }
     }
 
