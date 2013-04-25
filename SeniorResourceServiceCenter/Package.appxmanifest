@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
   
-  <Identity Name="0c1257bc-a9de-42fd-9564-640110dd7f50"
-            Publisher="CN=alma5_000"
+  <Identity Name="19a94fe2-5766-4f56-b9d5-eb985aff3fd1"
+            Publisher="CN=ponnek"
             Version="1.0.0.0" />
 
   <Properties>
     <DisplayName>SeniorResourceServiceCenter</DisplayName>
-    <PublisherDisplayName>alma5_000</PublisherDisplayName>
+    <PublisherDisplayName>ponnek</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
     <Description>SeniorResourceServiceCenter</Description>
   </Properties>

@@ -1,0 +1,88 @@
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.pdb
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\resources.pri
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\AppxManifest.xml
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.build.appxrecipe
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.dll
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\GalaSoft.MvvmLight.Win8.dll
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.xml
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\GalaSoft.MvvmLight.Win8.xml
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorResourceServiceCenter.csprojResolveAssemblyReference.cache
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\App.g.i.cs
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\App.g.cs
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Common\StandardStyles.g.i.cs
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Common\StandardStyles.g.cs
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Skins\MainSkin.g.i.cs
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Skins\MainSkin.g.cs
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\XamlTypeInfo.g.cs
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\App.xaml
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Common\StandardStyles.xaml
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Skins\MainSkin.xaml
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorResourceServiceCenter.exe
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorResourceServiceCenter.pdb
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorResourceServiceCenter.csproj.GenerateResource.Cache
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\priconfig.xml
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\layout.resfiles
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\resources.resfiles
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\pri.resfiles
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\LanguageQualifiers.txt
+c:\users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\ProjectArchitectures.txt
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Microsoft.WindowsAzure.MobileServices.Managed.dll
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Microsoft.WindowsAzure.MobileServices.Managed.pri
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\priconfig.xml.intermediate
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\layout.resfiles.intermediate
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\resources.resfiles.intermediate
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\pri.resfiles.intermediate
+C:\Users\ponnek\documents\visual studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Microsoft.WindowsAzure.MobileServices.Managed.pri.xml
+C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\MainPage.g.i.cs
+C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\MainPage.g.cs
+C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\MainPage.xaml
+C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorView.g.i.cs
+C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorView.g.cs
+C:\Users\ponnek\Documents\Visual Studio 2012\Projects\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorView.xaml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.exe
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.pdb
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\resources.pri
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\AppxManifest.xml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\SeniorResourceServiceCenter.build.appxrecipe
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.dll
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\GalaSoft.MvvmLight.Win8.dll
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Microsoft.WindowsAzure.MobileServices.Managed.dll
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.xml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\GalaSoft.MvvmLight.Win8.xml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\bin\Debug\Microsoft.WindowsAzure.MobileServices.Managed.pri
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorResourceServiceCenter.csprojResolveAssemblyReference.cache
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\App.g.i.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\App.g.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\MainPage.g.i.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\MainPage.g.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorView.g.i.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorView.g.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Skins\MainSkin.g.i.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Skins\MainSkin.g.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\App.xaml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Common\StandardStyles.xaml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\MainPage.xaml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorView.xaml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Skins\MainSkin.xaml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorResourceServiceCenter.exe
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorResourceServiceCenter.pdb
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\SeniorResourceServiceCenter.csproj.GenerateResource.Cache
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\priconfig.xml.intermediate
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\layout.resfiles.intermediate
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\resources.resfiles.intermediate
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\pri.resfiles.intermediate
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\priconfig.xml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\layout.resfiles
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\resources.resfiles
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\pri.resfiles
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\LanguageQualifiers.txt
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\Microsoft.WindowsAzure.MobileServices.Managed.pri.xml
+C:\Users\ponnek\Documents\GitHub\SeniorResourceServiceCenter\SeniorResourceServiceCenter\obj\Debug\ProjectArchitectures.txt

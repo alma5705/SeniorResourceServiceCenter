@@ -1,0 +1,25 @@
+Table Senior
+Primary Key: id bigint
+FirstName nVarChar 15
+LastName nVarChar 20
+
+Table Volunteer
+Primary Key: ID bigint
+FirstName nVarChar 15
+LastName nVarChar 20
+
+Table Requirement
+Primary Key: id bigint
+Name nVarChar 50
+Description nVarChar(max) - Not Required
+
+Table VolunteerRequirements
+Primary Key: ID bigint
+VolunteerID bigint
+RequirementID bigint
+
+Table SeniorRequirements
+Primary Key: ID bigint
+SeniorID bigint
+RequirementID bigint
+AdditionalInformation nVarChar(max) - Not Required
